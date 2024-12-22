@@ -3,9 +3,9 @@ import React from 'react'
 
 
 import { client } from "@/sanity/sanity/sanity-utils";
-import imageUrlBuilder from '@sanity/image-url'
+import ImageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link';
-import { ImageUrlBuilder } from '@sanity/image-url/lib/types/builder';
+
 
 
 const builder = ImageUrlBuilder(client)
