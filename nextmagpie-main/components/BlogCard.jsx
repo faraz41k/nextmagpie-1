@@ -14,7 +14,7 @@ function urlFor(source) {
   return builder.image(source)
 }
 
-const BlogCard = ({name,article,author,image,slug}) => {
+const BlogCard = ({name,author,image,}) => {
   
   
   return (
