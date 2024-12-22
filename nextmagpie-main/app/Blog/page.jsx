@@ -51,7 +51,6 @@ const Blog = async ()=> {
                   author={post.author}
                   url={post.url}
                   key={ind}
-                  
                   slug = {post.slug}
                   
                 />
